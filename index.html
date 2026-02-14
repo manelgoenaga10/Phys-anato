@@ -1,223 +1,210 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-  <meta charset="UTF-8">
-  <title>Anatomía para Fisioterapia</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <style>
-    body {
-      font-family: Arial, sans-serif;
-      margin: 0;
-      background: #f5f5f5;
-      color: #333;
-      line-height: 1.6;
-    }
+<meta charset="UTF-8">
+<title>Anatomía para Fisioterapia</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    header {
-      background: #1e293b;
-      color: white;
-      padding: 2rem;
-      text-align: center;
-    }
+<style>
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #f9fafb;
+  color: #111827;
+}
 
-    section {
-      max-width: 900px;
-      margin: 2rem auto;
-      background: white;
-      padding: 2rem;
-      border-radius: 12px;
-    }
+header {
+  text-align: center;
+  padding: 3rem 1rem;
+}
 
-    h2 {
-      color: #1e293b;
-      border-bottom: 2px solid #e5e7eb;
-      padding-bottom: 0.5rem;
-    }
+nav {
+  background: #111827;
+  padding: 1rem;
+  text-align: center;
+}
 
-    h3 {
-      margin-top: 1.5rem;
-      color: #334155;
-    }
+nav a {
+  color: white;
+  margin: 0 1rem;
+  text-decoration: none;
+  font-weight: bold;
+}
 
-    ul {
-      margin-left: 1.5rem;
-    }
+.container {
+  max-width: 1100px;
+  margin: auto;
+  padding: 2rem;
+}
 
-    .pro {
-      border: 2px dashed #94a3b8;
-      background: #f1f5f9;
-    }
+section {
+  margin-bottom: 4rem;
+}
 
-    footer {
-      text-align: center;
-      padding: 1rem;
-      font-size: 0.8rem;
-      color: #666;
-    }
+.card {
+  background: white;
+  border-radius: 16px;
+  padding: 1.5rem;
+  margin-bottom: 1.5rem;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.05);
+}
 
-    .button {
-      display: inline-block;
-      background: #1e293b;
-      color: white;
-      padding: 0.6rem 1rem;
-      border-radius: 8px;
-      text-decoration: none;
-      margin-top: 1rem;
-    }
-  </style>
+h2 {
+  border-bottom: 2px solid #e5e7eb;
+  padding-bottom: .5rem;
+}
+
+h3 {
+  margin-top: 1.5rem;
+}
+
+ul {
+  margin-left: 1.2rem;
+}
+
+.pro {
+  border: 2px dashed #9ca3af;
+  background: #f3f4f6;
+}
+
+footer {
+  text-align: center;
+  font-size: .8rem;
+  color: #6b7280;
+  padding: 2rem;
+}
+</style>
 </head>
 
 <body>
 
+<nav>
+  <a href="#huesos">Huesos</a>
+  <a href="#musculos">Músculos</a>
+  <a href="#nervios">Nervios</a>
+  <a href="#pro">Zona PRO</a>
+</nav>
+
 <header>
   <h1>Anatomía para Fisioterapia</h1>
-  <p>Plataforma educativa sobre anatomía humana aplicada a la fisioterapia</p>
+  <p>Plataforma educativa de anatomía humana aplicada a la práctica clínica.</p>
 </header>
 
-<section>
-  <h2>🦴 Sistema Óseo</h2>
-  <p>
-    El sistema óseo está formado por aproximadamente 206 huesos en el adulto.
-    Proporciona soporte estructural, protección de órganos vitales y permite el
-    movimiento en conjunto con músculos y articulaciones.
-  </p>
+<div class="container">
 
-  <h3>Funciones</h3>
-  <ul>
-    <li>Soporte del cuerpo</li>
-    <li>Protección de órganos internos</li>
-    <li>Movimiento</li>
-    <li>Producción de células sanguíneas</li>
-    <li>Almacenamiento de minerales</li>
-  </ul>
+<!-- HUESOS -->
+<section id="huesos">
+<h2>🦴 Sistema Óseo</h2>
 
-  <h3>Tipos de huesos</h3>
-  <ul>
-    <li>Huesos largos (fémur, húmero)</li>
-    <li>Huesos cortos (carpos, tarsos)</li>
-    <li>Huesos planos (escápula, esternón)</li>
-    <li>Huesos irregulares (vértebras)</li>
-    <li>Huesos sesamoideos (rótula)</li>
-  </ul>
+<div class="card">
+<h3>Columna Vertebral</h3>
+<ul>
+  <li>Cervical (C1–C7)</li>
+  <li>Torácica (T1–T12)</li>
+  <li>Lumbar (L1–L5)</li>
+  <li>Sacro y cóccix</li>
+</ul>
+<p>Función: protección medular, soporte postural y movilidad.</p>
+</div>
 
-  <h3>Ejemplo: Fémur</h3>
-  <ul>
-    <li>Localización: muslo</li>
-    <li>Función: soporte del peso corporal</li>
-    <li>Articulaciones: cadera y rodilla</li>
-    <li>Importancia clínica: fracturas, artrosis</li>
-  </ul>
+<div class="card">
+<h3>Extremidad Superior</h3>
+<ul>
+  <li>Clavícula</li>
+  <li>Escápula</li>
+  <li>Húmero</li>
+  <li>Radio y cúbito</li>
+  <li>Huesos del carpo, metacarpo y falanges</li>
+</ul>
+</div>
 </section>
 
-<section>
-  <h2>💪 Sistema Muscular</h2>
-  <p>
-    El sistema muscular permite el movimiento, mantiene la postura y estabiliza
-    las articulaciones. Es clave en la práctica fisioterapéutica.
-  </p>
+<!-- MÚSCULOS -->
+<section id="musculos">
+<h2>💪 Sistema Muscular</h2>
 
-  <h3>Tipos de músculo</h3>
-  <ul>
-    <li>Músculo esquelético</li>
-    <li>Músculo liso</li>
-    <li>Músculo cardíaco</li>
-  </ul>
+<div class="card">
+<h3>Miembro Superior</h3>
 
-  <h3>Estructura de estudio de un músculo</h3>
-  <ul>
-    <li>Origen</li>
-    <li>Inserción</li>
-    <li>Acción</li>
-    <li>Inervación</li>
-    <li>Función clínica</li>
-    <li>Lesiones frecuentes</li>
-  </ul>
+<h4>Bíceps braquial</h4>
+<ul>
+  <li>Origen: apófisis coracoides y tubérculo supraglenoideo</li>
+  <li>Inserción: tuberosidad del radio</li>
+  <li>Acción: flexión de codo y supinación</li>
+  <li>Inervación: nervio musculocutáneo</li>
+</ul>
 
-  <h3>Ejemplo: Bíceps braquial</h3>
-  <ul>
-    <li>Origen: escápula</li>
-    <li>Inserción: radio</li>
-    <li>Acción: flexión de codo y supinación</li>
-    <li>Inervación: nervio musculocutáneo</li>
-    <li>Importancia clínica: tendinopatías, roturas</li>
-  </ul>
+<h4>Tríceps braquial</h4>
+<ul>
+  <li>Origen: escápula y húmero</li>
+  <li>Inserción: olécranon del cúbito</li>
+  <li>Acción: extensión de codo</li>
+  <li>Inervación: nervio radial</li>
+</ul>
+</div>
+
+<div class="card">
+<h3>Miembro Inferior</h3>
+
+<h4>Cuádriceps femoral</h4>
+<ul>
+  <li>Origen: pelvis y fémur</li>
+  <li>Inserción: tuberosidad tibial</li>
+  <li>Acción: extensión de rodilla</li>
+  <li>Inervación: nervio femoral</li>
+</ul>
+
+<h4>Isquiotibiales</h4>
+<ul>
+  <li>Acción: flexión de rodilla y extensión de cadera</li>
+  <li>Importancia clínica: roturas musculares frecuentes</li>
+</ul>
+</div>
 </section>
 
-<section>
-  <h2>🧠 Sistema Nervioso</h2>
-  <p>
-    Sistema encargado del control motor, la sensibilidad y la coordinación del cuerpo.
-    Fundamental en rehabilitación neuromuscular.
-  </p>
+<!-- NERVIOS -->
+<section id="nervios">
+<h2>🧠 Sistema Nervioso</h2>
 
-  <h3>División</h3>
-  <ul>
-    <li>Sistema nervioso central</li>
-    <li>Sistema nervioso periférico</li>
-  </ul>
+<div class="card">
+<h3>Nervios del miembro superior</h3>
+<ul>
+  <li>Nervio mediano</li>
+  <li>Nervio radial</li>
+  <li>Nervio cubital</li>
+</ul>
+</div>
 
-  <h3>Nervios relevantes en fisioterapia</h3>
-  <ul>
-    <li>Nervio ciático</li>
-    <li>Nervio mediano</li>
-    <li>Nervio radial</li>
-    <li>Nervio cubital</li>
-    <li>Plexo braquial</li>
-    <li>Plexo lumbar</li>
-  </ul>
-
-  <h3>Ejemplo: Nervio ciático</h3>
-  <ul>
-    <li>Origen: plexo sacro</li>
-    <li>Trayecto: región glútea → muslo → pierna</li>
-    <li>Función: motora y sensitiva</li>
-    <li>Patologías: ciática, atrapamientos</li>
-  </ul>
+<div class="card">
+<h3>Nervios del miembro inferior</h3>
+<ul>
+  <li>Nervio femoral</li>
+  <li>Nervio ciático</li>
+  <li>Nervio tibial</li>
+</ul>
+</div>
 </section>
 
-<section>
-  <h2>🦵 Articulaciones</h2>
-  <p>
-    Las articulaciones permiten el movimiento entre los huesos y determinan el rango
-    y la calidad del movimiento humano.
-  </p>
+<!-- ZONA PRO -->
+<section id="pro">
+<h2>🔒 Zona Profesional</h2>
 
-  <h3>Tipos de articulaciones</h3>
-  <ul>
-    <li>Fibrosas</li>
-    <li>Cartilaginosas</li>
-    <li>Sinoviales</li>
-  </ul>
-
-  <h3>Ejemplo: Rodilla</h3>
-  <ul>
-    <li>Tipo: sinovial</li>
-    <li>Huesos: fémur, tibia, rótula</li>
-    <li>Movimientos: flexión y extensión</li>
-    <li>Lesiones frecuentes: LCA, meniscos</li>
-  </ul>
+<div class="card pro">
+<ul>
+  <li>Casos clínicos reales</li>
+  <li>Anatomía palpatoria</li>
+  <li>Tests ortopédicos</li>
+  <li>Protocolos de tratamiento</li>
+  <li>Actualizaciones mensuales</li>
+</ul>
+<p><strong>Suscripción: 1€/mes</strong></p>
+</div>
 </section>
 
-<section class="pro">
-  <h2>🔒 Zona Profesional</h2>
-  <p>
-    Contenido avanzado dirigido a estudiantes avanzados y profesionales de la
-    fisioterapia.
-  </p>
-
-  <ul>
-    <li>Casos clínicos reales</li>
-    <li>Razonamiento clínico</li>
-    <li>Tests ortopédicos</li>
-    <li>Anatomía palpatoria</li>
-    <li>Protocolos de tratamiento</li>
-  </ul>
-
-  <a class="button" href="#">Suscribirse por 1€/mes</a>
-</section>
+</div>
 
 <footer>
-  © 2026 Anatomía para Fisioterapia · Proyecto educativo
+© 2026 Anatomía para Fisioterapia · Proyecto educativo
 </footer>
 
 </body>

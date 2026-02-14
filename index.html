@@ -1,121 +1,224 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-  <meta charset="UTF-8" />
+  <meta charset="UTF-8">
   <title>Anatomía para Fisioterapia</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <style>
     body {
-      margin: 0;
       font-family: Arial, sans-serif;
-      background: #f9fafb;
-      color: #111827;
+      margin: 0;
+      background: #f5f5f5;
+      color: #333;
+      line-height: 1.6;
     }
-    .container {
-      padding: 2rem;
-      max-width: 1100px;
-      margin: auto;
-    }
+
     header {
-      text-align: center;
-      margin-bottom: 3rem;
-    }
-    h1 {
-      font-size: 2.5rem;
-    }
-    .grid {
-      display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-      gap: 1.5rem;
-    }
-    .card {
-      background: white;
-      border-radius: 16px;
-      padding: 1.5rem;
-      box-shadow: 0 10px 20px rgba(0,0,0,0.08);
-    }
-    .pro {
-      border: 2px dashed #9ca3af;
-      margin-top: 3rem;
-    }
-    ul {
-      padding-left: 1.2rem;
-    }
-    button {
-      margin-top: 1rem;
-      padding: 0.7rem 1.2rem;
-      border: none;
-      border-radius: 12px;
-      background: #111827;
+      background: #1e293b;
       color: white;
-      cursor: pointer;
+      padding: 2rem;
+      text-align: center;
     }
+
+    section {
+      max-width: 900px;
+      margin: 2rem auto;
+      background: white;
+      padding: 2rem;
+      border-radius: 12px;
+    }
+
+    h2 {
+      color: #1e293b;
+      border-bottom: 2px solid #e5e7eb;
+      padding-bottom: 0.5rem;
+    }
+
+    h3 {
+      margin-top: 1.5rem;
+      color: #334155;
+    }
+
+    ul {
+      margin-left: 1.5rem;
+    }
+
+    .pro {
+      border: 2px dashed #94a3b8;
+      background: #f1f5f9;
+    }
+
     footer {
       text-align: center;
-      margin-top: 4rem;
+      padding: 1rem;
       font-size: 0.8rem;
-      color: #6b7280;
+      color: #666;
+    }
+
+    .button {
+      display: inline-block;
+      background: #1e293b;
+      color: white;
+      padding: 0.6rem 1rem;
+      border-radius: 8px;
+      text-decoration: none;
+      margin-top: 1rem;
     }
   </style>
 </head>
+
 <body>
 
-<div class="container">
-  <header>
-    <h1>Anatomía para Fisioterapia</h1>
-    <p>
-      Plataforma educativa sobre anatomía humana aplicada a la fisioterapia,
-      desde nivel básico hasta profesional.
-    </p>
-  </header>
+<header>
+  <h1>Anatomía para Fisioterapia</h1>
+  <p>Plataforma educativa sobre anatomía humana aplicada a la fisioterapia</p>
+</header>
 
-  <section class="grid">
-    <div class="card">
-      <h2>Huesos</h2>
-      <p>
-        Estudio del sistema óseo: estructura, función, tipos de huesos y su
-        importancia biomecánica en el movimiento.
-      </p>
-    </div>
+<section>
+  <h2>🦴 Sistema Óseo</h2>
+  <p>
+    El sistema óseo está formado por aproximadamente 206 huesos en el adulto.
+    Proporciona soporte estructural, protección de órganos vitales y permite el
+    movimiento en conjunto con músculos y articulaciones.
+  </p>
 
-    <div class="card">
-      <h2>Músculos</h2>
-      <p>
-        Análisis de los músculos principales, origen, inserción, función y
-        relación con lesiones frecuentes en fisioterapia.
-      </p>
-    </div>
+  <h3>Funciones</h3>
+  <ul>
+    <li>Soporte del cuerpo</li>
+    <li>Protección de órganos internos</li>
+    <li>Movimiento</li>
+    <li>Producción de células sanguíneas</li>
+    <li>Almacenamiento de minerales</li>
+  </ul>
 
-    <div class="card">
-      <h2>Nervios</h2>
-      <p>
-        Introducción al sistema nervioso periférico y central aplicado al
-        control motor y la rehabilitación.
-      </p>
-    </div>
-  </section>
+  <h3>Tipos de huesos</h3>
+  <ul>
+    <li>Huesos largos (fémur, húmero)</li>
+    <li>Huesos cortos (carpos, tarsos)</li>
+    <li>Huesos planos (escápula, esternón)</li>
+    <li>Huesos irregulares (vértebras)</li>
+    <li>Huesos sesamoideos (rótula)</li>
+  </ul>
 
-  <section class="card pro">
-    <h2>🔒 Zona Profesional</h2>
-    <p>
-      Acceso a contenido avanzado: razonamiento clínico, casos reales,
-      anatomía palpatoria, tests ortopédicos y protocolos de tratamiento.
-    </p>
-    <ul>
-      <li>Casos clínicos reales explicados</li>
-      <li>Vídeos y esquemas avanzados</li>
-      <li>Actualizaciones mensuales</li>
-    </ul>
-    <button>Suscribirse por 1€/mes</button>
-    <p style="font-size:0.75rem;color:#6b7280;">
-      * Integrable con Stripe o PayPal para pagos recurrentes.
-    </p>
-  </section>
+  <h3>Ejemplo: Fémur</h3>
+  <ul>
+    <li>Localización: muslo</li>
+    <li>Función: soporte del peso corporal</li>
+    <li>Articulaciones: cadera y rodilla</li>
+    <li>Importancia clínica: fracturas, artrosis</li>
+  </ul>
+</section>
 
-  <footer>
-    © 2026 Anatomía para Fisioterapia · Proyecto educativo
-  </footer>
-</div>
+<section>
+  <h2>💪 Sistema Muscular</h2>
+  <p>
+    El sistema muscular permite el movimiento, mantiene la postura y estabiliza
+    las articulaciones. Es clave en la práctica fisioterapéutica.
+  </p>
+
+  <h3>Tipos de músculo</h3>
+  <ul>
+    <li>Músculo esquelético</li>
+    <li>Músculo liso</li>
+    <li>Músculo cardíaco</li>
+  </ul>
+
+  <h3>Estructura de estudio de un músculo</h3>
+  <ul>
+    <li>Origen</li>
+    <li>Inserción</li>
+    <li>Acción</li>
+    <li>Inervación</li>
+    <li>Función clínica</li>
+    <li>Lesiones frecuentes</li>
+  </ul>
+
+  <h3>Ejemplo: Bíceps braquial</h3>
+  <ul>
+    <li>Origen: escápula</li>
+    <li>Inserción: radio</li>
+    <li>Acción: flexión de codo y supinación</li>
+    <li>Inervación: nervio musculocutáneo</li>
+    <li>Importancia clínica: tendinopatías, roturas</li>
+  </ul>
+</section>
+
+<section>
+  <h2>🧠 Sistema Nervioso</h2>
+  <p>
+    Sistema encargado del control motor, la sensibilidad y la coordinación del cuerpo.
+    Fundamental en rehabilitación neuromuscular.
+  </p>
+
+  <h3>División</h3>
+  <ul>
+    <li>Sistema nervioso central</li>
+    <li>Sistema nervioso periférico</li>
+  </ul>
+
+  <h3>Nervios relevantes en fisioterapia</h3>
+  <ul>
+    <li>Nervio ciático</li>
+    <li>Nervio mediano</li>
+    <li>Nervio radial</li>
+    <li>Nervio cubital</li>
+    <li>Plexo braquial</li>
+    <li>Plexo lumbar</li>
+  </ul>
+
+  <h3>Ejemplo: Nervio ciático</h3>
+  <ul>
+    <li>Origen: plexo sacro</li>
+    <li>Trayecto: región glútea → muslo → pierna</li>
+    <li>Función: motora y sensitiva</li>
+    <li>Patologías: ciática, atrapamientos</li>
+  </ul>
+</section>
+
+<section>
+  <h2>🦵 Articulaciones</h2>
+  <p>
+    Las articulaciones permiten el movimiento entre los huesos y determinan el rango
+    y la calidad del movimiento humano.
+  </p>
+
+  <h3>Tipos de articulaciones</h3>
+  <ul>
+    <li>Fibrosas</li>
+    <li>Cartilaginosas</li>
+    <li>Sinoviales</li>
+  </ul>
+
+  <h3>Ejemplo: Rodilla</h3>
+  <ul>
+    <li>Tipo: sinovial</li>
+    <li>Huesos: fémur, tibia, rótula</li>
+    <li>Movimientos: flexión y extensión</li>
+    <li>Lesiones frecuentes: LCA, meniscos</li>
+  </ul>
+</section>
+
+<section class="pro">
+  <h2>🔒 Zona Profesional</h2>
+  <p>
+    Contenido avanzado dirigido a estudiantes avanzados y profesionales de la
+    fisioterapia.
+  </p>
+
+  <ul>
+    <li>Casos clínicos reales</li>
+    <li>Razonamiento clínico</li>
+    <li>Tests ortopédicos</li>
+    <li>Anatomía palpatoria</li>
+    <li>Protocolos de tratamiento</li>
+  </ul>
+
+  <a class="button" href="#">Suscribirse por 1€/mes</a>
+</section>
+
+<footer>
+  © 2026 Anatomía para Fisioterapia · Proyecto educativo
+</footer>
 
 </body>
-  </html>
+</html>

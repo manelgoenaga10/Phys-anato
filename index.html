@@ -13,11 +13,6 @@ body {
   color: #111827;
 }
 
-header {
-  text-align: center;
-  padding: 3rem 1rem;
-}
-
 nav {
   background: #111827;
   padding: 1rem;
@@ -29,6 +24,11 @@ nav a {
   margin: 0 1rem;
   text-decoration: none;
   font-weight: bold;
+}
+
+header {
+  text-align: center;
+  padding: 3rem 1rem;
 }
 
 .container {
@@ -45,26 +45,19 @@ section {
   background: white;
   border-radius: 16px;
   padding: 1.5rem;
-  margin-bottom: 1.5rem;
-  box-shadow: 0 4px 10px rgba(0,0,0,0.05);
-}
-
-h2 {
-  border-bottom: 2px solid #e5e7eb;
-  padding-bottom: .5rem;
-}
-
-h3 {
-  margin-top: 1.5rem;
-}
-
-ul {
-  margin-left: 1.2rem;
+  margin-bottom: 2rem;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.05);
 }
 
 .pro {
   border: 2px dashed #9ca3af;
   background: #f3f4f6;
+}
+
+img {
+  max-width: 100%;
+  border-radius: 12px;
+  margin-top: 1rem;
 }
 
 footer {
@@ -81,123 +74,167 @@ footer {
 <nav>
   <a href="#huesos">Huesos</a>
   <a href="#musculos">Músculos</a>
-  <a href="#nervios">Nervios</a>
   <a href="#pro">Zona PRO</a>
 </nav>
 
 <header>
   <h1>Anatomía para Fisioterapia</h1>
-  <p>Plataforma educativa de anatomía humana aplicada a la práctica clínica.</p>
+  <p>Plataforma educativa de anatomía humana aplicada a la fisioterapia.</p>
 </header>
 
 <div class="container">
 
-<!-- HUESOS -->
+<!-- ================= HUESOS ================= -->
 <section id="huesos">
 <h2>🦴 Sistema Óseo</h2>
 
 <div class="card">
-<h3>Columna Vertebral</h3>
-<ul>
-  <li>Cervical (C1–C7)</li>
-  <li>Torácica (T1–T12)</li>
-  <li>Lumbar (L1–L5)</li>
-  <li>Sacro y cóccix</li>
-</ul>
-<p>Función: protección medular, soporte postural y movilidad.</p>
+<h3>¿Qué es el sistema óseo?</h3>
+<p>
+El sistema óseo proporciona soporte, protección y estructura al cuerpo humano.
+Además, actúa como palanca para el movimiento y protege órganos vitales.
+</p>
 </div>
 
 <div class="card">
-<h3>Extremidad Superior</h3>
+<h3>Cráneo</h3>
 <ul>
-  <li>Clavícula</li>
-  <li>Escápula</li>
-  <li>Húmero</li>
-  <li>Radio y cúbito</li>
-  <li>Huesos del carpo, metacarpo y falanges</li>
+<li>Frontal</li>
+<li>Parietales</li>
+<li>Temporales</li>
+<li>Occipital</li>
+<li>Maxilar</li>
+<li>Mandíbula</li>
+</ul>
+<p>Función: protección del encéfalo y formación de la cara.</p>
+<img src="https://upload.wikimedia.org/wikipedia/commons/3/3f/Skull_lateral_view.svg">
+</div>
+
+<div class="card">
+<h3>Columna vertebral</h3>
+<ul>
+<li>Cervical (C1–C7)</li>
+<li>Torácica (T1–T12)</li>
+<li>Lumbar (L1–L5)</li>
+<li>Sacro y cóccix</li>
+</ul>
+<p><strong>Clínica:</strong> hernias discales, lumbalgia, escoliosis.</p>
+<img src="https://upload.wikimedia.org/wikipedia/commons/8/8c/Spinal_column_curvature.png">
+</div>
+
+<div class="card">
+<h3>Miembro superior</h3>
+<ul>
+<li>Clavícula</li>
+<li>Escápula</li>
+<li>Húmero</li>
+<li>Radio</li>
+<li>Cúbito</li>
+<li>Carpos, metacarpos y falanges</li>
+</ul>
+</div>
+
+<div class="card">
+<h3>Miembro inferior</h3>
+<ul>
+<li>Pelvis</li>
+<li>Fémur</li>
+<li>Rótula</li>
+<li>Tibia</li>
+<li>Peroné</li>
+<li>Tarsos, metatarsos y falanges</li>
 </ul>
 </div>
 </section>
 
-<!-- MÚSCULOS -->
+<!-- ================= MÚSCULOS ================= -->
 <section id="musculos">
 <h2>💪 Sistema Muscular</h2>
 
 <div class="card">
-<h3>Miembro Superior</h3>
+<h3>¿Qué es el sistema muscular?</h3>
+<p>
+Permite el movimiento, mantiene la postura y estabiliza las articulaciones.
+En fisioterapia trabajamos principalmente con músculo esquelético.
+</p>
+</div>
 
-<h4>Bíceps braquial</h4>
+<div class="card">
+<h3>Deltoides</h3>
 <ul>
-  <li>Origen: apófisis coracoides y tubérculo supraglenoideo</li>
-  <li>Inserción: tuberosidad del radio</li>
-  <li>Acción: flexión de codo y supinación</li>
-  <li>Inervación: nervio musculocutáneo</li>
+<li><strong>Origen:</strong> clavícula, acromion y espina escapular</li>
+<li><strong>Inserción:</strong> tuberosidad deltoidea</li>
+<li><strong>Función:</strong> abducción del hombro</li>
+<li><strong>Inervación:</strong> nervio axilar</li>
 </ul>
+<img src="https://upload.wikimedia.org/wikipedia/commons/4/4f/Deltoid_muscle.png">
+</div>
 
-<h4>Tríceps braquial</h4>
+<div class="card">
+<h3>Bíceps braquial</h3>
 <ul>
-  <li>Origen: escápula y húmero</li>
-  <li>Inserción: olécranon del cúbito</li>
-  <li>Acción: extensión de codo</li>
-  <li>Inervación: nervio radial</li>
+<li><strong>Origen:</strong> escápula</li>
+<li><strong>Inserción:</strong> tuberosidad del radio</li>
+<li><strong>Función:</strong> flexión de codo y supinación</li>
+<li><strong>Inervación:</strong> nervio musculocutáneo</li>
+</ul>
+<img src="https://upload.wikimedia.org/wikipedia/commons/6/6d/Biceps_brachii.png">
+</div>
+
+<div class="card">
+<h3>Tríceps braquial</h3>
+<ul>
+<li><strong>Origen:</strong> escápula y húmero</li>
+<li><strong>Inserción:</strong> olécranon</li>
+<li><strong>Función:</strong> extensión de codo</li>
+<li><strong>Inervación:</strong> nervio radial</li>
 </ul>
 </div>
 
 <div class="card">
-<h3>Miembro Inferior</h3>
-
-<h4>Cuádriceps femoral</h4>
+<h3>Cuádriceps femoral</h3>
 <ul>
-  <li>Origen: pelvis y fémur</li>
-  <li>Inserción: tuberosidad tibial</li>
-  <li>Acción: extensión de rodilla</li>
-  <li>Inervación: nervio femoral</li>
+<li><strong>Origen:</strong> pelvis y fémur</li>
+<li><strong>Inserción:</strong> tuberosidad tibial</li>
+<li><strong>Función:</strong> extensión de rodilla</li>
+<li><strong>Inervación:</strong> nervio femoral</li>
 </ul>
+<img src="https://upload.wikimedia.org/wikipedia/commons/9/9c/Quadriceps_femoris.png">
+</div>
 
-<h4>Isquiotibiales</h4>
+<div class="card">
+<h3>Isquiotibiales</h3>
 <ul>
-  <li>Acción: flexión de rodilla y extensión de cadera</li>
-  <li>Importancia clínica: roturas musculares frecuentes</li>
+<li><strong>Origen:</strong> tuberosidad isquiática</li>
+<li><strong>Inserción:</strong> tibia y peroné</li>
+<li><strong>Función:</strong> flexión de rodilla</li>
+<li><strong>Inervación:</strong> nervio ciático</li>
+</ul>
+</div>
+
+<div class="card">
+<h3>Glúteo mayor</h3>
+<ul>
+<li><strong>Origen:</strong> ilion y sacro</li>
+<li><strong>Inserción:</strong> tracto iliotibial</li>
+<li><strong>Función:</strong> extensión de cadera</li>
+<li><strong>Inervación:</strong> nervio glúteo inferior</li>
 </ul>
 </div>
 </section>
 
-<!-- NERVIOS -->
-<section id="nervios">
-<h2>🧠 Sistema Nervioso</h2>
-
-<div class="card">
-<h3>Nervios del miembro superior</h3>
-<ul>
-  <li>Nervio mediano</li>
-  <li>Nervio radial</li>
-  <li>Nervio cubital</li>
-</ul>
-</div>
-
-<div class="card">
-<h3>Nervios del miembro inferior</h3>
-<ul>
-  <li>Nervio femoral</li>
-  <li>Nervio ciático</li>
-  <li>Nervio tibial</li>
-</ul>
-</div>
-</section>
-
-<!-- ZONA PRO -->
+<!-- ================= ZONA PRO ================= -->
 <section id="pro">
 <h2>🔒 Zona Profesional</h2>
 
 <div class="card pro">
 <ul>
-  <li>Casos clínicos reales</li>
-  <li>Anatomía palpatoria</li>
-  <li>Tests ortopédicos</li>
-  <li>Protocolos de tratamiento</li>
-  <li>Actualizaciones mensuales</li>
+<li>Casos clínicos reales</li>
+<li>Anatomía palpatoria</li>
+<li>Tests ortopédicos</li>
+<li>Protocolos basados en evidencia</li>
 </ul>
-<p><strong>Suscripción: 1€/mes</strong></p>
+<p><strong>Acceso mediante suscripción mensual</strong></p>
 </div>
 </section>
 

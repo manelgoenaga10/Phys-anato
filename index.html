@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <title>Anatomía para Fisioterapia</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: #f9fafb;
+      color: #111827;
+    }
+    .container {
+      padding: 2rem;
+      max-width: 1100px;
+      margin: auto;
+    }
+    header {
+      text-align: center;
+      margin-bottom: 3rem;
+    }
+    h1 {
+      font-size: 2.5rem;
+    }
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 1.5rem;
+    }
+    .card {
+      background: white;
+      border-radius: 16px;
+      padding: 1.5rem;
+      box-shadow: 0 10px 20px rgba(0,0,0,0.08);
+    }
+    .pro {
+      border: 2px dashed #9ca3af;
+      margin-top: 3rem;
+    }
+    ul {
+      padding-left: 1.2rem;
+    }
+    button {
+      margin-top: 1rem;
+      padding: 0.7rem 1.2rem;
+      border: none;
+      border-radius: 12px;
+      background: #111827;
+      color: white;
+      cursor: pointer;
+    }
+    footer {
+      text-align: center;
+      margin-top: 4rem;
+      font-size: 0.8rem;
+      color: #6b7280;
+    }
+  </style>
+</head>
+<body>
+
+<div class="container">
+  <header>
+    <h1>Anatomía para Fisioterapia</h1>
+    <p>
+      Plataforma educativa sobre anatomía humana aplicada a la fisioterapia,
+      desde nivel básico hasta profesional.
+    </p>
+  </header>
+
+  <section class="grid">
+    <div class="card">
+      <h2>Huesos</h2>
+      <p>
+        Estudio del sistema óseo: estructura, función, tipos de huesos y su
+        importancia biomecánica en el movimiento.
+      </p>
+    </div>
+
+    <div class="card">
+      <h2>Músculos</h2>
+      <p>
+        Análisis de los músculos principales, origen, inserción, función y
+        relación con lesiones frecuentes en fisioterapia.
+      </p>
+    </div>
+
+    <div class="card">
+      <h2>Nervios</h2>
+      <p>
+        Introducción al sistema nervioso periférico y central aplicado al
+        control motor y la rehabilitación.
+      </p>
+    </div>
+  </section>
+
+  <section class="card pro">
+    <h2>🔒 Zona Profesional</h2>
+    <p>
+      Acceso a contenido avanzado: razonamiento clínico, casos reales,
+      anatomía palpatoria, tests ortopédicos y protocolos de tratamiento.
+    </p>
+    <ul>
+      <li>Casos clínicos reales explicados</li>
+      <li>Vídeos y esquemas avanzados</li>
+      <li>Actualizaciones mensuales</li>
+    </ul>
+    <button>Suscribirse por 1€/mes</button>
+    <p style="font-size:0.75rem;color:#6b7280;">
+      * Integrable con Stripe o PayPal para pagos recurrentes.
+    </p>
+  </section>
+
+  <footer>
+    © 2026 Anatomía para Fisioterapia · Proyecto educativo
+  </footer>
+</div>
+
+</body>
+  </html>
